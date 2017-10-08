@@ -1,0 +1,16 @@
+1. www directory (simple build expanded version):
+
+ionic serve (localhost build + run)
+
+2. platforms/browser directory (release build minified version):
+ 
+ionic cordova build --release browser
+ionic cordova run browser (localhost run)
+
+3. Firebase deploy:
+
+firebase login
+firebase init	(using platforms/browser/www folder)
+firebase deploy
+
+
